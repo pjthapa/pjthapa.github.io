@@ -1,6 +1,8 @@
 import React from "react";
 import Navbar from "../components/navbar";
 import {Link} from "react-router-dom";
+import {portfolio, tipbot, inamorata, chess} from "../images/index"
+
 
 function PortfolioPage(){
     return(
@@ -15,11 +17,11 @@ function PortfolioPage(){
                         <p>MY SOCIAL MEDIA</p>
                         <div className="social images">
                             <a href="https://www.reddit.com/user/DefiNiteASABot/">
-                                <img src="https://img.icons8.com/plasticine/100/000000/bot.png"/></a>
+                                <img src="https://img.icons8.com/plasticine/100/000000/bot.png" alt="Reddit"/></a>
                             <a href="https://twitter.com/ThapaPj">
-                                <img src="https://img.icons8.com/office/100/000000/twitter.png"/>  </a>
+                                <img src="https://img.icons8.com/office/100/000000/twitter.png" alt="twitter"/>  </a>
                             <a href="https://github.com/pjthapa">
-                                <img src="https://img.icons8.com/nolan/100/github.png"/> </a>
+                                <img src="https://img.icons8.com/nolan/100/github.png" alt="github"/> </a>
                         </div>
                         <div className="email">
                             <p>SEND ME AN EMAIL</p>
@@ -33,18 +35,35 @@ function PortfolioPage(){
                 
                 <div className="content">
                     <div className="description">
-                        <h2>HI THERE!</h2>
-                        <p>My name is Prasanna Thapa </p>
-                        <p>& welcome to my website</p>
+                        <h2 className="typewriter">HI THERE! MY NAME IS PRASANNA AND HERE ARE SOME OF MY PROJECTS </h2>
                     </div>
                     <div className="projects">
-                        <div className="project one">Crypto Tip Bot</div>
-                        <div className="project two">INAMORATA WEBSITE</div>
-                        <div className="project three">CHESS GAME</div>
-                        
+                        <div className="tipbot">
+                            <p className="projectDiscription">CRYPTOCURRENCT TIPPING BOT</p>
+                            <a href=""><div className="project one">
+                                <img src={tipbot.default} alt="tipbot"></img>
+                            </div></a>
+                        </div>
+                        <div className="inamorata">
+                            <p className="projectDiscription">DYNAMIC WEBSITE</p>
+                            <a href=""><div className="project two">
+                                <img src={inamorata.default} alt="Inamorat Website"></img>
+                            </div></a>
+                        </div>
+                        <div className="chess">
+                            <p className="projectDiscription">PYTHON CHESSGAME</p>
+                            <a href=""><div className="project three">
+                                <img src={chess.default} alt="chess pieces"></img>
+                            </div></a>
+                        </div>
                     </div>
                     <div className="projects">
-                        <div className="project three">PORTFOLIO WEBSITE</div>
+                        <div className="portfolio">
+                            <p className="projectDiscription">PORTFOLIO WEBSITE</p>
+                            <a href=""><div className="project three">
+                                <img src={portfolio.default} alt="Portfolio Website"></img>
+                            </div></a>
+                        </div>
                     </div>
                 </div>
             </section>
