@@ -23,7 +23,7 @@ function ResumePage(){
                 <div className="education">
                     <h4>EDUCATION:</h4>
                     <div className="osu">
-                        <b>Oregon State University, Cascades</b>
+                        <b>Oregon State University, Cascades— Computer Sciencef</b>
                         -  December 2022
                     </div>
                     <br></br>
