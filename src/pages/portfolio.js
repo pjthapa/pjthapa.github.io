@@ -40,19 +40,19 @@ function PortfolioPage(){
                     <div className="projects">
                         <div className="tipbot">
                             <p className="projectDiscription">CRYPTOCURRENCT TIPPING BOT</p>
-                            <a href=""><div className="project one">
+                            <a href="https://github.com/pjthapa/DefiNitBot"><div className="project one">
                                 <img src={tipbot.default} alt="tipbot"></img>
                             </div></a>
                         </div>
                         <div className="inamorata">
                             <p className="projectDiscription">DYNAMIC WEBSITE</p>
-                            <a href=""><div className="project two">
+                            <a href="https://inamorata.netlify.app"><div className="project two">
                                 <img src={inamorata.default} alt="Inamorat Website"></img>
                             </div></a>
                         </div>
                         <div className="chess">
                             <p className="projectDiscription">PYTHON CHESSGAME</p>
-                            <a href=""><div className="project three">
+                            <a href="https://github.com/pjthapa/chessgame"><div className="project three">
                                 <img src={chess.default} alt="chess pieces"></img>
                             </div></a>
                         </div>
@@ -60,7 +60,7 @@ function PortfolioPage(){
                     <div className="projects">
                         <div className="portfolio">
                             <p className="projectDiscription">PORTFOLIO WEBSITE</p>
-                            <a href=""><div className="project three">
+                            <a href="https://github.com/pjthapa/pjthapa.github.io"><div className="project three">
                                 <img src={portfolio.default} alt="Portfolio Website"></img>
                             </div></a>
                         </div>
