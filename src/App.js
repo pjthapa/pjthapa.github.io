@@ -14,8 +14,7 @@ function App() {
           <Routes>
             <Route path = "/" exact element ={<PortfolioPage />}></Route>
             <Route path = "/resume" exact element ={<ResumePage />}></Route>
-            <Route path = "/blog" exact element ={<BlogPage />}></Route>
-            <Route path = "/calendar" exact element ={<CalendarPage />}></Route>
+
 
           </Routes>
         </div>
